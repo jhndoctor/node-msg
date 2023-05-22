@@ -1,0 +1,7 @@
+{
+  "name": "class-demo",
+  "dependencies": {
+    "color-scale": "*",
+    "type-rhythm-scale": "*"
+  }
+}
