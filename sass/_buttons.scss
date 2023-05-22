@@ -1,0 +1,8 @@
+button {
+    @extend %default-inputs;
+    -webkit-appearance: none;
+    backgorund: orange;
+    color: white;
+    border-radius: em(3);
+    padding: 1em;
+}

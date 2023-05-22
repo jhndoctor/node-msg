@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  form#form.form(action='#', method='get')
+    ul 
+      li 
+        label(for="name") Your Name: 
+        input#name(type="text", placeholder="Your Name", name="name", tabindex='1')
+      li 
+        label(for="email") Your Email: 
+        input#email(type="email", placeholder="Your Email", name='email', tabindex='2')
+      li 
+        label(for="message") Message: 
+        textarea#message(placeholder='Message...', name='message', tabindex='3')
+    button#submit Send Message 
